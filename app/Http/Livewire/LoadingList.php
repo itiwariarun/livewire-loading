@@ -17,7 +17,7 @@ class LoadingList extends Component
     public function render()
     {
         $users = User::latest()->paginate($this->perPage);
-        $this->emit('userStore');
+        $this->emit('Store');
         return view('livewire.loading-list',['users' => $users]);
     }
 }

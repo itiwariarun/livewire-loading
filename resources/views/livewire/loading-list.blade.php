@@ -19,6 +19,8 @@
                 @endforeach
             </tbody>
         </table>
+<center><button class="bg-gray-300 px-4 py-1 text-gray-500 font-extrabold rounded-2xl text-center" wire:click="loadMore">Load More</button></center>
+
     </div>
 </div>
     {{-- In work, do what you enjoy. --}}
